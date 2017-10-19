@@ -44,7 +44,7 @@ constructor(props){
       <body>
             <div className="header col-md-8">
             <div className="container">
-                <h2 className="logo">Book Streamer</h2>
+                <h2 className="logo">Book Finder</h2>
                 <p><SearchBar onSearchTermChange={bookSearch} /></p>
                 <BookDetail book={this.state.selectedBook}/>
             </div>
